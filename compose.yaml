@@ -18,6 +18,8 @@ services:
 
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./certificate_xsoft.pem:/etc/ssl/certs/certificate_xsoft.pem:ro
+      - ./key_certificate_xsoft.pem:/etc/ssl/certs/key_certificate_xsoft.pem:ro
 
     ports:
       - "0.0.0.0:80:80"
