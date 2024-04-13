@@ -22,7 +22,7 @@ services:
       - ./key_certificate_xsoft.pem:/etc/ssl/certs/key_certificate_xsoft.pem:ro
 
     ports:
-      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
 
     networks:
       - internal
