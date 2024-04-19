@@ -15,3 +15,7 @@ chmod 700 print_responses.sh
 ```shell
 ./print-responses.sh
 ```
+
+## Демонстрация работы
+
+![](work.png)
